@@ -18,6 +18,10 @@ namespace Coolgame2012
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Texture2D arrow;
+        Texture2D ball;
+        Texture2D stars;
+        Texture2D moonground;
 
         public Game1()
         {
@@ -46,7 +50,10 @@ namespace Coolgame2012
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            arrow = Content.Load<Texture2D>("Arrow");
+            ball = Content.Load<Texture2D>("NewBall");
+            stars = Content.Load<Texture2D>("Stars");
+            moonground = Content.Load<Texture2D>("moonground");
             // TODO: use this.Content to load your game content here
         }
 
@@ -81,7 +88,7 @@ namespace Coolgame2012
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
 
