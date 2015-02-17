@@ -1,0 +1,11 @@
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\NewBall.xnb
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\Stars.xnb
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\Arrow.xnb
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\moonground.xnb
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Coolgame2012.exe
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Coolgame2012.pdb
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Coolgame2012.csprojResolveAssemblyReference.cache
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Coolgame2012.exe
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Coolgame2012.pdb
+F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\starybackground.xnb

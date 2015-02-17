@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>NewBall.png</Source>
+      <Name>NewBall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\NewBall.xnb</Output>
+      <Time>2015-02-17T13:38:44+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Stars.png</Source>
+      <Name>Stars</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\Stars.xnb</Output>
+      <Time>2015-02-17T13:43:10+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Arrow.png</Source>
+      <Name>Arrow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\Arrow.xnb</Output>
+      <Time>2015-02-17T14:03:52+00:00</Time>
+    </Item>
+    <Item>
+      <Source>moonground.png</Source>
+      <Name>moonground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\moonground.xnb</Output>
+      <Time>2015-02-17T14:25:06+00:00</Time>
+    </Item>
+    <Item>
+      <Source>starybackground.png</Source>
+      <Name>starybackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\starybackground.xnb</Output>
+      <Time>2015-02-17T14:44:08+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012Content\</RootDirectory>
+      <LoggerRootDirectory>F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-07-12T11:56:49.7695447+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

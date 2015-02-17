@@ -22,11 +22,15 @@ namespace Coolgame2012
         Texture2D ball;
         Texture2D stars;
         Texture2D moonground;
+        private ScrollingBackground myBackground;
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            graphics.IsFullScreen = false;
+            graphics.PreferredBackBufferHeight = 550;
+            graphics.PreferredBackBufferWidth = 700;
         }
 
         /// <summary>
@@ -50,10 +54,12 @@ namespace Coolgame2012
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            myBackground = new ScrollingBackground();
             arrow = Content.Load<Texture2D>("Arrow");
             ball = Content.Load<Texture2D>("NewBall");
-            stars = Content.Load<Texture2D>("Stars");
+            stars = Content.Load<Texture2D>("Starybackground");
             moonground = Content.Load<Texture2D>("moonground");
+            myBackground.Load(GraphicsDevice, stars);
             // TODO: use this.Content to load your game content here
         }
 
@@ -76,7 +82,10 @@ namespace Coolgame2012
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+            float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
 
+            // TODO: Add your game logic here.
+            myBackground.Update(elapsed * 100);
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -89,8 +98,11 @@ namespace Coolgame2012
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Black);
-
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            //spriteBatch.Draw(stars, new Vector2(0, 0), Color.White);
+            spriteBatch.Draw(moonground, new Vector2(0, 400), Color.White);
+            myBackground.Draw(spriteBatch);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
