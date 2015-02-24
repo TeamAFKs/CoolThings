@@ -25,7 +25,9 @@ namespace Coolgame2012
         private ScrollingBackground myBackground;
         
         //Andre: Arrow Rotation Stuff
-
+        Vector2 arrowOrigin;
+        private float rotationAngle;
+        
 
         public Game1()
         {
@@ -63,6 +65,10 @@ namespace Coolgame2012
             stars = Content.Load<Texture2D>("Starybackground");
             moonground = Content.Load<Texture2D>("moonground");
             myBackground.Load(GraphicsDevice, stars);
+
+            //Andre: Arrow will be rotated based on its own dimensions
+            arrowOrigin.X = arrow.Width/2;
+            arrowOrigin.Y = arrow.Height;
             // TODO: use this.Content to load your game content here
         }
 
@@ -91,6 +97,10 @@ namespace Coolgame2012
             myBackground.Update(elapsed * 100);
             // TODO: Add your update logic here
 
+            rotationAngle += elapsed;
+            float circle = MathHelper.Pi * 2;
+            rotationAngle = rotationAngle % circle;
+
             base.Update(gameTime);
         }
 
@@ -104,7 +114,7 @@ namespace Coolgame2012
             spriteBatch.Begin();
             //spriteBatch.Draw(stars, new Vector2(0, 0), Color.White);
             spriteBatch.Draw(moonground, new Vector2(0, 400), Color.White);
-            spriteBatch.Draw(arrow, new Vector2 ( graphics.PreferredBackBufferWidth /2 - arrow.Width /2, 400 - arrow.Height), Color.White);
+            spriteBatch.Draw(arrow, new Vector2 ( graphics.PreferredBackBufferWidth /2 - arrow.Width /2, 400), null, Color.White, rotationAngle, arrowOrigin, 1.0f, SpriteEffects.None, 0f);
             myBackground.Draw(spriteBatch);
             spriteBatch.End();
 
