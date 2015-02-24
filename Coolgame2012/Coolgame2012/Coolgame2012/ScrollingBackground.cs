@@ -21,12 +21,12 @@ namespace Coolgame2012
         {
             mytexture = backgroundTexture;
             screenheight = device.Viewport.Height;
-            int screenwidth = device.Viewport.Width;
+            screenwidth = device.Viewport.Width;
             // Set the origin so that we're drawing from the 
             // center of the top edge.
-            origin = new Vector2(mytexture.Width/2 , 0);
+            origin = new Vector2(mytexture.Width / 2, screenheight/2);
             // Set the screen position to the center of the screen.
-            screenpos = new Vector2(screenwidth / 2, screenheight / 2);
+            screenpos = new Vector2(screenwidth / 2, screenheight/2);
             // Offset to draw the second texture, when necessary.
             texturesize = new Vector2(mytexture.Width, 0);
         }
