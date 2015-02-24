@@ -105,6 +105,8 @@ namespace Coolgame2012
             spriteBatch.End();
 
             base.Draw(gameTime);
+
+            //Andre: test Comment
         }
     }
 }
