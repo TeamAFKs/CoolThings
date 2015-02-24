@@ -92,7 +92,7 @@ namespace Coolgame2012
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
             float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
-
+            
             // TODO: Add your game logic here.
             myBackground.Update(elapsed * 100);
             // TODO: Add your update logic here
@@ -100,7 +100,7 @@ namespace Coolgame2012
             rotationAngle += elapsed;
             float circle = MathHelper.Pi * 2;
             rotationAngle = rotationAngle % circle;
-
+            //Console.WriteLine(rotationAngle);
             base.Update(gameTime);
         }
 
@@ -114,7 +114,7 @@ namespace Coolgame2012
             spriteBatch.Begin();
             //spriteBatch.Draw(stars, new Vector2(0, 0), Color.White);
             spriteBatch.Draw(moonground, new Vector2(0, 400), Color.White);
-            spriteBatch.Draw(arrow, new Vector2 ( graphics.PreferredBackBufferWidth /2 - arrow.Width /2, 400), null, Color.White, rotationAngle, arrowOrigin, 1.0f, SpriteEffects.None, 0f);
+            spriteBatch.Draw(arrow, new Vector2 ( graphics.PreferredBackBufferWidth /2 - arrow.Width /2, 400), null, Color.White, rotationAngle, arrowOrigin, 1.0f, SpriteEffects.None, 0.0f);
             myBackground.Draw(spriteBatch);
             spriteBatch.End();
 
