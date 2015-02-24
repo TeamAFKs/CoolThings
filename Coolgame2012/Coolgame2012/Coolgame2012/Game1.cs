@@ -101,6 +101,7 @@ namespace Coolgame2012
             spriteBatch.Begin();
             //spriteBatch.Draw(stars, new Vector2(0, 0), Color.White);
             spriteBatch.Draw(moonground, new Vector2(0, 400), Color.White);
+            spriteBatch.Draw(arrow, new Vector2 ( graphics.PreferredBackBufferWidth /2 - arrow.Width /2, 400 - arrow.Height), Color.White);
             myBackground.Draw(spriteBatch);
             spriteBatch.End();
 

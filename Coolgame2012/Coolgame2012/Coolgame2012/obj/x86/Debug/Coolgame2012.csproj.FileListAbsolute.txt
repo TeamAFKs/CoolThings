@@ -9,3 +9,14 @@ F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Microsoft.Xna.
 F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Coolgame2012.exe
 F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Coolgame2012.pdb
 F:\Reposteam\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\starybackground.xnb
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\NewBall.xnb
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\Stars.xnb
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\Arrow.xnb
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\moonground.xnb
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Content\starybackground.xnb
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Coolgame2012.exe
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\bin\x86\Debug\Coolgame2012.pdb
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Coolgame2012.csprojResolveAssemblyReference.cache
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Coolgame2012.exe
+C:\Users\AA2726\Desktop\coool\CoolThings\Coolgame2012\Coolgame2012\Coolgame2012\obj\x86\Debug\Coolgame2012.pdb
