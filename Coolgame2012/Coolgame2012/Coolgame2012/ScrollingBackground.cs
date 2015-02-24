@@ -16,6 +16,7 @@ namespace Coolgame2012
         private Vector2 screenpos, origin, texturesize;
         private Texture2D mytexture;
         private int screenheight;
+        int screenwidth;
         public void Load(GraphicsDevice device, Texture2D backgroundTexture)
         {
             mytexture = backgroundTexture;
@@ -23,11 +24,11 @@ namespace Coolgame2012
             int screenwidth = device.Viewport.Width;
             // Set the origin so that we're drawing from the 
             // center of the top edge.
-            origin = new Vector2(mytexture.Width / 2, 0);
+            origin = new Vector2(mytexture.Width/2 , 0);
             // Set the screen position to the center of the screen.
             screenpos = new Vector2(screenwidth / 2, screenheight / 2);
             // Offset to draw the second texture, when necessary.
-            texturesize = new Vector2(0, mytexture.Height);
+            texturesize = new Vector2(mytexture.Width, 0);
         }
 
         public void Update(float deltaY)
@@ -39,7 +40,7 @@ namespace Coolgame2012
         public void Draw(SpriteBatch batch)
         {
             // Draw the texture, if it is still onscreen.
-            if (screenpos.Y < screenheight)
+            if (screenpos.X < screenwidth)
             {
                 batch.Draw(mytexture, screenpos, null,
                      Color.White, 0, origin, 1, SpriteEffects.None, 0f);
