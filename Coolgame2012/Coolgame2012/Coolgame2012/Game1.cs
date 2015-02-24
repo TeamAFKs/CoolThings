@@ -23,6 +23,9 @@ namespace Coolgame2012
         Texture2D stars;
         Texture2D moonground;
         private ScrollingBackground myBackground;
+        
+        //Andre: Arrow Rotation Stuff
+
 
         public Game1()
         {
